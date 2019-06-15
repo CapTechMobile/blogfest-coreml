@@ -166,10 +166,10 @@ class ViewController: UIViewController {
             let label = UILabel(frame: CGRect(x: self.determineX(), y: self.view.frame.size.height - 50, width: 300, height: 50))
             label.text = newCopy
             label.font = .systemFont(ofSize: 40)
-            label.textColor = .black
             label.textAlignment = .center
             
             self.view.addSubview(label)
+            self.view.bringSubviewToFront(label)
         
             UIView.animate(withDuration: 5.0, animations: {
                 label.frame = CGRect(x: label.frame.origin.x, y: -100, width: label.frame.size.width, height: label.frame.size.height)
@@ -183,7 +183,7 @@ class ViewController: UIViewController {
     }
     
     func determineX() -> CGFloat {
-        return (self.view.frame.size.width / 2) - 80
+        return (self.view.frame.size.width / 2) - 150
     }
 }
 
