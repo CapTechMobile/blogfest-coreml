@@ -13,9 +13,7 @@
 		A75E144C22B526BE0036AA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75E144A22B526BE0036AA3A /* Main.storyboard */; };
 		A75E144E22B526BE0036AA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75E144D22B526BE0036AA3A /* Assets.xcassets */; };
 		A75E145122B526BE0036AA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75E144F22B526BE0036AA3A /* LaunchScreen.storyboard */; };
-		A75E145D22B52E810036AA3A /* ReadTheRoomSoundClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A75E145C22B52E810036AA3A /* ReadTheRoomSoundClassifier.mlmodel */; };
-		A75E145F22B53BEA0036AA3A /* MySoundClassifier 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A75E145E22B53BE90036AA3A /* MySoundClassifier 2.mlmodel */; };
-		A75E146122B5462F0036AA3A /* ReadTheRoom 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A75E146022B5462F0036AA3A /* ReadTheRoom 1.mlmodel */; };
+		A75FFE8122B59C1A00B71C52 /* ReadTheRoom.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A75FFE8022B59C1A00B71C52 /* ReadTheRoom.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +25,7 @@
 		A75E144D22B526BE0036AA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A75E145022B526BE0036AA3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A75E145222B526BE0036AA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A75E145C22B52E810036AA3A /* ReadTheRoomSoundClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ReadTheRoomSoundClassifier.mlmodel; sourceTree = "<group>"; };
-		A75E145E22B53BE90036AA3A /* MySoundClassifier 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MySoundClassifier 2.mlmodel"; sourceTree = "<group>"; };
-		A75E146022B5462F0036AA3A /* ReadTheRoom 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ReadTheRoom 1.mlmodel"; sourceTree = "<group>"; };
+		A75FFE8022B59C1A00B71C52 /* ReadTheRoom.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ReadTheRoom.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +65,7 @@
 				A75E144D22B526BE0036AA3A /* Assets.xcassets */,
 				A75E144F22B526BE0036AA3A /* LaunchScreen.storyboard */,
 				A75E145222B526BE0036AA3A /* Info.plist */,
-				A75E145E22B53BE90036AA3A /* MySoundClassifier 2.mlmodel */,
-				A75E146022B5462F0036AA3A /* ReadTheRoom 1.mlmodel */,
-				A75E145C22B52E810036AA3A /* ReadTheRoomSoundClassifier.mlmodel */,
+				A75FFE8022B59C1A00B71C52 /* ReadTheRoom.mlmodel */,
 			);
 			path = ReadTheRoom;
 			sourceTree = "<group>";
@@ -147,11 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75E146122B5462F0036AA3A /* ReadTheRoom 1.mlmodel in Sources */,
 				A75E144922B526BE0036AA3A /* ViewController.swift in Sources */,
-				A75E145F22B53BEA0036AA3A /* MySoundClassifier 2.mlmodel in Sources */,
+				A75FFE8122B59C1A00B71C52 /* ReadTheRoom.mlmodel in Sources */,
 				A75E144522B526BE0036AA3A /* AppDelegate.swift in Sources */,
-				A75E145D22B52E810036AA3A /* ReadTheRoomSoundClassifier.mlmodel in Sources */,
 				A75E144722B526BE0036AA3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
